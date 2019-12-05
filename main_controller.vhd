@@ -97,14 +97,14 @@ process(opcode)--Para tratar de comandos SEQUENCIAIS
 										MemtoRegD <= '0';
 										ALUOp <= "00";
 										JumpD <= '1'; 
-				when others =>	RegWriteD <= '0';		--j
+				when others =>	RegWriteD <= '0';		
 										RegDstD <= '0';
 										ALUSrcD <= '0';
 										BranchD <= '0';
 										MemWriteD <= '0';
 										MemtoRegD <= '0';
 										ALUOp <= "00";
-										JumpD <= '1';
+										JumpD <= '0';
 																 
 																
         end case;
