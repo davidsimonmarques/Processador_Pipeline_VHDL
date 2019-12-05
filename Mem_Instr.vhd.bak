@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity Mem_Instr is 
+    port(A: in std_logic_vector(5 downto 0); 
+         RD: out std_logic_vector(31 downto 0)); 
+end mult4;

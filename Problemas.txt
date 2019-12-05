@@ -1,0 +1,5 @@
+problemas
+
+
+-colocar toda a instrução dentro do banco de reg?
+-pq no pipeline a escrita no registrador acontece no falling_edge

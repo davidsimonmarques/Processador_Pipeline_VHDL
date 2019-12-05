@@ -1,0 +1,14 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity extensor_sinal is 
+	port (a: in std_logic_vector(15 downto 0);
+			y: out std_logic_vector(31 downto 0));
+end;
+
+
+architecture behave of extensor_sinal is
+begin
+	y <= (X"ffff" & a) when a(15) else (X"0000" & a);
+end;
+
